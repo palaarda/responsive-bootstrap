@@ -6,6 +6,9 @@
     overflow-x: hidden;
 }
 .header{
+    #first-h1{
+        overflow-y: hidden;
+    }
     background-color: $bg-dark;
     color: white;
     min-height: 640px;

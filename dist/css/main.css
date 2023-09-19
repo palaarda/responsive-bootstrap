@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
 
 .header {
   background-color: #212529;
@@ -18,3 +19,9 @@
 
 .text-section {
   background-color: #F8F9FA; }
+
+footer {
+  background-color: #212529; }
+
+#footer-list ul li a {
+  color: #fff; }

@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden; }
+  box-sizing: border-box; }
 
 .header {
   background-color: #212529;
@@ -11,7 +10,10 @@
   .header #first-h1 {
     overflow-y: hidden; }
 
-.main-content {
+#main-section .first-h2 {
+  overflow-y: hidden; }
+
+#main-section .main-content {
   display: inline-flex;
   font-size: 1.5rem;
   justify-content: center;
@@ -25,5 +27,7 @@
 footer {
   background-color: #212529; }
 
-#footer-list ul li a {
-  color: #fff; }
+#footer-list ul {
+  list-style-type: none; }
+  #footer-list ul li a {
+    color: #fff; }

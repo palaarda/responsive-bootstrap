@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
+
 .header{
     #first-h1{
         overflow-y: hidden;
@@ -13,13 +13,18 @@
     color: white;
     min-height: 640px;
 }
-.main-content{
-    display: inline-flex;
-    font-size: 1.5rem;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
+#main-section{
+    .first-h2{
+        overflow-y: hidden;
+    }
+    .main-content{
+        display: inline-flex;
+        font-size: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+    }
 }
 .text-section{
     background-color: #F8F9FA;
@@ -29,6 +34,7 @@ footer{
 }
 #footer-list{
     ul{
+        list-style-type: none;
         li{
             a{
                 color: #fff;

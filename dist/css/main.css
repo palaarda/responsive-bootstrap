@@ -31,3 +31,7 @@ footer {
   list-style-type: none; }
   #footer-list ul li a {
     color: #fff; }
+
+.contanct-form {
+  width: 600px;
+  margin: auto; }

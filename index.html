@@ -11,33 +11,50 @@
     <!--Bu nav hakkında bir kaç şey söylemem gerekiyor.-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container px-5">
-            <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/cherry-logo.png" class="img-fluid cherry-logo" alt="">
+                Cherry</a>
+            <button 
+                class="navbar-toggler" 
+                id="hamburger-menu"
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="true" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="header py-5">
+    <div class="header p-3" id="header">
         <div class="container px-5">
             <div class="row align-items-center justify-content-center">
+                
                 <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <!--Blur efekt z-index hakkında soru sormalıyım-->
+                    <div class="effect-1" id="effect">s</div>
                     <div class="my-5 text-center text-xl-start">
-                        <h1 class="display-5 fw-bolder pt-2" id="first-h1">A Bootstrap 5 template for modern businesses</h1><br>
-                        <p class="lead fw-normal text-white-50">Quickly design and customize responsive mobile-first sites <br> with Bootstrap, 
-                            the world’s most popular front-end open <br>source toolkit!</p>
+                        <div class="first-h1"><h1 class="display-5 fw-bolder pt-2">MyPhone 15 Pro</h1><br></div>
+                        <!--<div class="container" id="effect-3">s</div>-->
+                        <p class="lead fw-normal text-white-50">MyPhone 15 Pro <br> Titanyum. Çok Güçlü. Çok Hafif. Çok Pro</p>
                             <div class="d-flex justify-content-sm-center justify-content-xl-start mt-4">
-                                <button type="button" class="btn btn-primary btn-lg">Get Started</button>    
-                                <button type="button" class="btn btn-outline-light btn-lg px-4 mx-4">Learn More</button>  
+                                <div class="effect-3" id="effect-2">s</div>
+                                <a href="#main-section" id="header-buttons"><button type="button" class="btn btn-primary btn-lg" href="www.google.com" >Şimdi Satın Al</button></a>    
+                                <button type="button" class="btn btn-outline-light btn-lg px-4 mx-4" id="header-buttons">Daha Fazla</button>  
                             </div>    
                     </div>    
                 </div>
-                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                        <img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="...">
+                <div class="effect-2">a</div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center phone-div">
+                        <img class="img-fluid rounded-3 my-5 mx-5 phone-photo" src="assets/images/Apple-iPhone-12-PNG-Free-Download.png" alt="...">
                     </div>
                 </div>
             </div>
@@ -47,29 +64,29 @@
         <div class="container py-5 my-5">
             <div class="row gx-5">
                 <div class="col-lg-4 mb-5 mb-lg-0"> 
-                    <h2 class="fw-bolder mb-0 first-h2">A better way to start building.</h2>
+                    <h2 class="fw-bolder mb-0 first-h2">MyPhone 15 serisi ile neler mi yeni ?</h2>
                 </div>
                 <div class="col-lg-8">
                     <div class="row gx-5 row-cols-1 row-cols-md-2">
                         <div class="col mb-5 h-100">
                             <div class="main-content bg-primary bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-shield-halved"></i></i></div>
-                            <h2 class="h5">Featured title</h2>
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <h2 class="h5">Güvenlik</h2>
+                            <p class="mb-0">Güçlü güvenlik önlemleriyle kötü amaçlı yazılımlar, veri sızıntıları ve diğer güvenlik tehditlerine karşı etkili bir koruma sunar. Hızlı güvenlik güncellemeleriyle, kullanıcılarını her zaman güncel ve güvende tutar.</p>
                         </div>
                         <div class="col mb-5 h-100">
                             <div class="main-content bg-primary bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-microchip"></i></div>
-                            <h2 class="h5">Featured title</h2>
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <h2 class="h5">M16 Çip</h2>
+                            <p class="mb-0">M16 işlemcisi ile endüstri standartlarını aşıyoruz. M16, yüksek performansı ve güç verimliliği ile dikkat çekiyor. Bu işlemci ile kullanıcılarımıza hızlı ve sorunsuz bir deneyim sunarken, aynı zamanda enerji tasarrufu sağlıyoruz.</p>
                         </div>
                         <div class="col mb-5 h-100">
                             <div class="main-content bg-primary bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-cubes"></i></div>
-                            <h2 class="h5">Featured title</h2>
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <h2 class="h5">Kişiselleştirme</h2>
+                            <p class="mb-0">MyPhone 15 serisi ile birlikte CherryOS 17'nin kişiselleştirmeleri ile her türlü kişiselleştirmeyi ve çoklu masaüstü ortamlarını size sunuyoruz. <br> "Senin Telefonun Senin Dünyan!"</p>
                         </div>
                         <div class="col mb-5 h-100">
                             <div class="main-content bg-primary bg-gradient text-white rounded-3 mb-3"><i class="fa-solid fa-camera"></i></div>
-                            <h2 class="h5">Featured title</h2> 
-                            <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                            <h2 class="h5">Kamera</h2> 
+                            <p class="mb-0">MyPhone 15 serisi ile 48 MP ana kamera ve portre modu ile olağanüstü çekimler yapın. Kameralarımızda dahili uzak telefoto, macro lens ve ND filtre modülü ile siz kullanıcılara benzersiz bir deneyim sunuyoruz.</p>
                         </div>
                     </div>
                 </div>
@@ -82,12 +99,14 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-10 col-xl-7 py-5 my-5">
                     <p class="fs-4 mb-4 fst-italic text-center">
-                        "Working with Start Bootstrap templates has saved me tons of development time when building new projects! 
-                        Starting with a Bootstrap template just makes things easier!"
+                        "İşte çılgın olanlar, deli gibi düşünenler, kuralları yıkanlar, sıradan olanı reddedenler, düzeni değiştirenler, dünya tarihini yazanlardır. 
+                        İşte bu çılgınlar, dünyayı değiştirenlerdir. 
+                        Onlara 'deli' diyenler, bizim düşündüğümüz gibi düşünemedikleri için böyle söylerler. 
+                        Ama aslında bu çılgınlar, geleceği inşa edenlerdir."
                     </p>
                     <div class="d-flex align-items-center justify-content-center fw-bolder">
-                        <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="...">
-                        Tom Ato <span class="text-primary px-2">/</span> CEO, Pomodoro 
+                        <img class="rounded-circle me-3 border photos-card-steve" src="assets/images/images.jpeg" alt="...">
+                        Steve Jobs <span class="text-primary px-2">/</span> CEO, Cherry 
                     </div>
                 </div>    
             </div>    
@@ -98,25 +117,25 @@
         <div class="container px-5 my-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h2 class="fw-bolder">From our Blog</h2>
-                    <p class=" lead text-muted mb-2 fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+                    <h2 class="fw-bolder">Duyurular</h2>
+                    <p class=" lead text-muted mb-2 fw-normal">Duyurular, etkinlikler, gelişmeler ve daha fazlası.</p>
                 </div>
             </div>
             <div class="row gx-5 mt-5">
                 <div class="col-lg-4 mb-5">
                     <div class="card h-100 shadow">
-                        <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
+                        <img src="assets/images/new3.png" class="card-img-top" alt="...">
                         <div class="card-body p-4 my-2">
-                            <span class="badge rounded-pill text-bg-primary mb-3">News</span>
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <span class="badge rounded-pill text-bg-primary mb-3">Yeni</span>
+                            <h5 class="card-title">Cherry OS 17 ile Tanışın</h5>
+                            <p class="card-text">Cherry OS 17, işlem hızını ve verimliliği bir üst seviyeye taşıyor. Yeni nesil işlemciler ve optimize edilmiş yazılım, daha hızlı ve akıcı bir deneyim sunuyor.</p>
                             <div class="card-bottom p-0 gap-0">
                                 <div class="d-flex align-items-end justify-content-between">
-                                    <div class="d-flex align-items-start gap-1 mt-2">
-                                        <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="...">
+                                    <div class="d-flex align-items-start gap-1 mt-4">
+                                        <img class="rounded-circle me-3 photos-card-steve" src="assets/images/images.jpeg" alt="...">
                                         <div class="small">
-                                            <p class="fw-bold mb-1">Arda Pala</p>
-                                            <p class="text-muted">March 12, 2023 · 6 min read</p>
+                                            <p class="fw-bold mb-1">Steve İşler</p>
+                                            <p class="text-muted">14 Eylül, 2023 · 13k görüntüleme</p>
                                         </div>
                                     </div>
                                 </div>
@@ -126,18 +145,18 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card h-100 shadow">
-                        <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
+                        <img src="assets/images/new2.png" class="card-img-top" alt="...">
                         <div class="card-body p-4 my-2">
-                            <span class="badge rounded-pill text-bg-primary mb-3">News</span>
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <span class="badge rounded-pill text-bg-primary mb-3">Yeni</span>
+                            <h5 class="card-title">MyPhone 15 Tanıtıldı</h5>
+                            <p class="card-text">Cherry, MyPhone 15 modeli ile 48 MP ana kamera ve portre modu ile olağanüstü çekimler yapın. MyPhone 15 ile fotoğrafçılıkta yeni bir döneme adım atıyoruz!</p>
                             <div class="card-bottom p-0 gap-0">
                                 <div class="d-flex align-items-end justify-content-between">
                                     <div class="d-flex align-items-start gap-1 mt-2">
-                                        <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="...">
+                                        <img class="rounded-circle me-3 photos-card" src="assets/images/Hacker-okan_5490.jpg" alt="...">
                                         <div class="small">
-                                            <p class="fw-bold mb-1">Arda Pala</p>
-                                            <p class="text-muted">March 12, 2023 · 6 min read</p>
+                                            <p class="fw-bold mb-1">Hacker Okan</p>
+                                            <p class="text-muted">12 Eylül, 2023 · 24k görüntüleme</p>
                                         </div>
                                     </div>
                                 </div>
@@ -147,18 +166,18 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card h-100 shadow">
-                        <img src="https://dummyimage.com/600x350/ced4da/6c757d" class="card-img-top" alt="...">
+                        <img src="assets/images/new.png" class="card-img-top" alt="...">
                         <div class="card-body p-4 my-2">
-                            <span class="badge rounded-pill text-bg-primary mb-3">News</span>
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <span class="badge rounded-pill text-bg-primary mb-3">Yeni</span>
+                            <h5 class="card-title">Cherry 12. Dönem Etkinliği</h5>
+                            <p class="card-text">Teknoloji dünyasına yön verme misyonumuzu yansıtarak, yenilikleri kullanıcılarımızla paylaşarak stratejilerimizi sunuyoruz!</p>
                             <div class="card-bottom p-0 gap-0">
                                 <div class="d-flex align-items-end justify-content-between">
-                                    <div class="d-flex align-items-start gap-1 mt-2">
-                                        <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="...">
+                                    <div class="d-flex align-items-start gap-1 mt-4">
+                                        <img class="rounded-circle me-3 photos-card mt-1" src="assets/images/bne-min.jpg" alt="...">
                                         <div class="small">
                                             <p class="fw-bold mb-1">Arda Pala</p>
-                                            <p class="text-muted">March 12, 2023 · 6 min read</p>
+                                            <p class="text-muted">21 Ağustos, 2023 · 11k görüntüleme</p>
                                         </div>
                                     </div>
                                 </div>
@@ -172,19 +191,19 @@
                 <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                     <div class="mb-4 mb-xl-0">
                         <div class="fw-bold fs-2">
-                            New products, delivered to you.
+                            Duyurular, kampanyalar için.
                         </div>
                         <div class="lead-50">
-                            Sign up for our newsletter for the latest updates.
+                            En son güncellemeler için bültenimize kaydolun.
                         </div>
                     </div>
                     <div class="ms-xl-4">
                         <div class="input-group mb-3">
-                            <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter">
-                            <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+                            <input class="form-control" type="text" placeholder="E-posta adresi..." aria-label="Email address..." aria-describedby="button-newsletter">
+                            <button class="btn btn-outline-light" id="button-newsletter" type="button">Kayıt Ol</button>
                         </div>
                         <div class="small lead-50">
-                            We care about privacy, and will never share your data.
+                            Gizliliğe önem veriyoruz ve verilerinizi asla paylaşmayacağız.
                         </div>
                     </div>
                 </div>
@@ -195,20 +214,21 @@
         <div class="container px-5">
             <div class="row justify-content-between text-white mt-3 d-flex align-items-center text-center flex-column flex-sm-row">
                 <div class="col-auto">
-                    <p>Copyright © Your Website 2023</p>
+                    <a href="https://github.com/palaarda" class="text-white"><p>Copyright © Arda Pala 2023</p></a>
                 </div>
                 <div class="col-auto" id="footer-list">
                     <ul class="d-flex mx-2 gap-2">
-                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Gizlilik</a></li>
                         <span>.</span>
-                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Şartlar</a></li>
                         <span>.</span>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">İletişim</a></li>
                     </ul>
                 </div>
             </div>
         </div> 
     </footer>       
+    <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/179b9735dc.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

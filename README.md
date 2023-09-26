@@ -1,4 +1,3 @@
-
 # Responsive Bootstrap Project
 
 Practice Project For Begginers

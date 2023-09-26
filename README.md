@@ -21,7 +21,7 @@ Practice Project For Begginers
   npm run sass
 ```
 
-## Demo
+## Live Demo
 
 https://palaarda.github.io/responsive-bootstrap/
 

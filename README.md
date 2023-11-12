@@ -1,10 +1,7 @@
 # Responsive Bootstrap Project
-
 Practice Project For Begginers
 
-
 ## SASS
-
 
 ```bash
   npm init
